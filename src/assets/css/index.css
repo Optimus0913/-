@@ -1,0 +1,25 @@
+.nav-title {
+    width: auto;
+    height: 1.8rem;
+    background: #d43c33;
+}
+.nav-title  {
+   background:url(../images/header.png) no-repeat;
+   background-size: contain;
+}
+
+.nav-bar {
+    height: 0.8rem;
+    display: flex;
+    border-bottom: 1px solid rgba(216, 210, 210, 0.418);
+}
+.nav-bar a {
+    flex: 1;
+    text-align: center;
+    line-height: .8rem;
+    color: #333;
+    font-size: 15px;
+}
+.nav-bar .active {
+    color: red !important;
+}

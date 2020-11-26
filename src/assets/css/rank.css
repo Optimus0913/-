@@ -1,0 +1,53 @@
+.hotop {
+    position: relative;
+    padding-top: 38.9%;
+    overflow: hidden;
+   background:url(../images/8.jpg)no-repeat;
+   background-size: contain;;
+}
+.hotop .hotopct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.hotop .hoticon {
+    width: 142px;
+    height: 67px;
+    background: url(../images/7.png) no-repeat;
+    background-size: 166px 97px;
+    background-position: -24px -30px;
+}
+
+.hotop  .hottime {
+    margin-top: 10px;
+    color: hsla(0,0%,100%,.8);
+    font-size: 12px;
+}
+
+.hotdn {
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+}
+.hotdn .hotview {
+    display: inline-block;
+    color: #999;
+    padding-right: 14px;
+}
+
+.m-sgitem .song-title{
+    display: flex;
+    color: #df3436;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center; 
+    font-size: 17px;
+}
